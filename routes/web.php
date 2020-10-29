@@ -17,9 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [LoginController::class, 'showLoginForm'])
+Route::get('/login', [LoginController::class, 'showLoginForm'])
     ->name('login')
     ->middleware('guest');
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
