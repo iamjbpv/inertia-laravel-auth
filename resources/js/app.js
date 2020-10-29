@@ -6,6 +6,7 @@ require('./bootstrap');
 */
 
 import { App, plugin } from '@inertiajs/inertia-vue'
+import { InertiaProgress } from '@inertiajs/progress'
 import Vue from 'vue'
 
 Vue.use(plugin)
@@ -20,3 +21,5 @@ new Vue({
     },
   }),
 }).$mount(el)
+
+InertiaProgress.init()
