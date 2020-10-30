@@ -12,5 +12,6 @@
 <b>To run the demo app<b>
 <p>php artisan serve</p>
  
+ if you want to run it on vagrant/homestead you can check this out
 Laravel Homestead
 https://github.com/iamjbpv/laravel-homestead
