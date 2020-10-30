@@ -1,4 +1,4 @@
-<h1>Simple Authentication Using Inertia Vue + Laravel</h1>
+<h1>Simple Laravel+Inertia+Vue Authentication Web Application</h1>
 
 <b>To compile assets<b>
 <p>npm run watch</p>
